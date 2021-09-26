@@ -1,2 +1,2 @@
 # app-sistema-presupuestos
-Aplicación que permite llevar delante de manera simple un sistema de presupuestos para reparaciones de un taller mecánico.
+Aplicación que permite llevar de manera simple un sistema de presupuestos para reparaciones de un taller mecánico.
