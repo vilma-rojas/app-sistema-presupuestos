@@ -20,6 +20,9 @@ namespace Logica
         {
             this.tipo = tipo;
             this.cantPuertas = cantPuertas;
+            this.marca = marca;
+            this.modelo = modelo;
+            this.patente = patente; 
            
         }
 
