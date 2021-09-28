@@ -6,17 +6,11 @@ namespace Logica
 {
     class Automovil : Vehiculo
     {
-        private String tipo;
+        private int tipo;
 
         private int cantPuertas;
 
-        public Automovil(String tipo)
-        {
-            this.tipo = tipo;
-            this.cantPuertas = 4;
-        }
-
-        public Automovil(String tipo, int cantPuertas, String marca, String modelo, int patente)
+        public Automovil(int tipo, int cantPuertas, String marca, String modelo, int patente)
         {
             this.tipo = tipo;
             this.cantPuertas = cantPuertas;
@@ -26,7 +20,7 @@ namespace Logica
            
         }
 
-        public String getTipo()
+        public int getTipo()
         {
             return this.tipo;
         }
@@ -36,7 +30,7 @@ namespace Logica
             return this.cantPuertas;
         }
 
-        public void setTipo(String tipo)
+        public void setTipo(int tipo)
         {
             this.tipo = tipo;
         }

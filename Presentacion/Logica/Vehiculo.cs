@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Logica
 {
-    class Vehiculo
+    public class Vehiculo
     {
         public String marca;
 
