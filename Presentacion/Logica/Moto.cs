@@ -16,6 +16,9 @@ namespace Logica
         public Moto(bool cilindrada, String marca, String modelo, int patente)
         {
             this.cilindrada = cilindrada;
+            this.marca = marca;
+            this.modelo = modelo;
+            this.patente = patente;
         }
 
         public void getCilindrada(bool cilindrada)

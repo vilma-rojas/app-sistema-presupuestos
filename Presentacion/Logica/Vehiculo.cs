@@ -6,10 +6,10 @@ namespace Logica
 {
     class Vehiculo
     {
-        private String marca;
+        public String marca;
 
-        private String modelo;
+        public String modelo;
 
-        private int patente;
+        public int patente;
     }
 }
