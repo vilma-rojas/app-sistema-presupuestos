@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Logica
 {
-    class Moto
+    class Moto : Vehiculo 
     {
         private bool cilindrada;
 
@@ -13,7 +13,7 @@ namespace Logica
             cilindrada = true;
         }
 
-        public Moto(bool cilindrada)
+        public Moto(bool cilindrada, String marca, String modelo, int patente)
         {
             this.cilindrada = cilindrada;
         }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Logica
 {
-    class Automovil
+    class Automovil : Vehiculo
     {
         private String tipo;
 
@@ -16,10 +16,11 @@ namespace Logica
             this.cantPuertas = 4;
         }
 
-        public Automovil(String tipo, int cantPuertas)
+        public Automovil(String tipo, int cantPuertas, String marca, String modelo, int patente)
         {
             this.tipo = tipo;
             this.cantPuertas = cantPuertas;
+           
         }
 
         public String getTipo()
